@@ -1,0 +1,24 @@
+1- roslaunch mybot_gazebo mybot_world.launch
+
+
+2- roslaunch mybot_navigation gmapping_demo.launch
+
+
+3- roslaunch mybot_description mybot_rviz_gmapping.launch
+
+
+4- roslaunch mybot_navigation mybot_teleop.launch
+
+5- rosrun map_server map_saver -f ~/mybot_ws/src/mybot_navigation/maps/test_map
+
+6- 
+Close all previous terminals and run the following commands below
+
+
+11- roslaunch mybot_gazebo mybot_world.launch
+
+
+22- roslaunch mybot_navigation amcl_demo.launch
+
+
+33- roslaunch mybot_description mybot_rviz_amcl.launch
